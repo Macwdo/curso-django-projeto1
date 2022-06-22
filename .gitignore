@@ -1,2 +1,3 @@
 venv
 token.txt
+.mypy_cache
