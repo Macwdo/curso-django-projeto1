@@ -8,7 +8,7 @@ def home(request):
 
 
 def contato(request):
-    return HttpResponse('123231232-22')
+    return render(request, 'recipes/temp.html',context={'numero':'993406469'})
 
 
 def sobre(request):
