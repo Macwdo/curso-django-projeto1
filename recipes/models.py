@@ -1,6 +1,8 @@
 from django.db import models
+from django.contrib.auth.models import User
 
-
+class Category(models.Model):
+    name = models.CharField(max_length=65)
 
 class Recipe(models.Model):
     #Title Description Slug
@@ -25,6 +27,13 @@ class Recipe(models.Model):
     is_published = models.BooleanField(default=False)
     #cover
     cover = models.ImageField(upload_to='recipes/covers/%Y/%m/%d')
-    #category
-    #relationship
+    #category(relação)
+    category = models.ForeignKey(
+        Category, on_delete=models.SET_NULL, null=True
+        )
+    #author(relação)
+    author = models.ForeignKey(
+        User , on_delete=models.SET_NULL, null=True
+        )
+
 # Create your models here.
