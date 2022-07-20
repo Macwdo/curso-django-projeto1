@@ -75,7 +75,7 @@
   }
   
   .main-header-container {
-    background: var(--color-primary-dark);
+    background: var(--color-warning-dark);
   }
   
   .main-logo {
@@ -226,7 +226,7 @@
   }
   
   .recipe-footer a {
-    background: var(--color-primary-dark);
+    background: var(--color-warning-dark);
     display: block;
     color: var(--color-white);
     text-decoration: none;
@@ -257,7 +257,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--color-primary-dark);
+    background: var(--color-warning-dark);
     color: var(--color-white);
     padding: var(--spacing-gutter-large);
   }
