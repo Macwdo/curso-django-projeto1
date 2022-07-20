@@ -132,7 +132,6 @@ h6 {
     border-color: var(--color-primary);
     background: var(--color-white);
 }
-
 .search-form:focus-within .search-button {
     color: var(--color-primary);
 }
@@ -220,7 +219,7 @@ h6 {
 }
 
 .recipe-footer a {
-    background: var(--color-primary-dark);
+    background: var(--color-primary-hover);
     display: block;
     color: var(--color-white);
     text-decoration: none;
