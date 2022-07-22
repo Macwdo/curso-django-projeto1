@@ -362,7 +362,15 @@
   gap: var(--spacing-gutter-medium)
 }
 
-
+.main-logo-menu{
+  font-size: 5rem;
+  color: var(--color-white);
+  text-decoration: none;
+  flex-flow: row nowrap;
+  align-items: right;
+  justify-content: right;
+  margin: 0 auto;
+}
   /* Generics */
   
   .center {
