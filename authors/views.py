@@ -19,4 +19,5 @@ def register_create(request):
     request.session['register_for_data'] = POST
     form = RegisterForm(POST)
 
+    
     return redirect('authors:register')
